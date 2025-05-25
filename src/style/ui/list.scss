@@ -1,0 +1,15 @@
+.list {
+    margin-top: 20px;
+    padding-left: 20px;
+    &__item {
+        padding: 0;
+        margin: 0;
+        list-style-type: decimal;
+        font-size: 16px;
+        margin-top: 10px;
+        &:first-child {
+            margin-top: 0;
+        }
+        
+    }
+}

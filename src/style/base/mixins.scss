@@ -1,0 +1,22 @@
+@use "./variables.scss" as *;
+
+@mixin button {
+    display: block;
+    background-color: $btn-bg;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    color: $btn-font-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@mixin title {
+    color: $font-color;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

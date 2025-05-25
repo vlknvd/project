@@ -1,0 +1,7 @@
+@use '../base/mixins.scss' as *;
+
+.title-h1 {
+    @include title;
+    font-size: 35px;
+    margin-top: 20px;
+}

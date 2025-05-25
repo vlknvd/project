@@ -1,0 +1,9 @@
+@use '../base/mixins.scss' as *;
+
+.button {
+    @include button;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+}
