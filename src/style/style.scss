@@ -1,4 +1,5 @@
-@use './base/basic.scss';
+@use './base/root.scss';
+@use './base/_reboot.scss';
 @use './ui/buttons.scss';
 @use './ui/title.scss';
 @use './ui/list.scss';

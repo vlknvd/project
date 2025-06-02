@@ -1,15 +1,18 @@
 import React from "react";
 
-const List = () => {
+const List = ({ listItems }) => {
+  const { title, items } = listItems;
   return (
     <>
-      <h1 className='title title-h1'>Список безвизовых стран:</h1>
-      <ul className='list'>
-        <li className='list__item'>Бразилия</li>
-        <li className='list__item'>Доминикана</li>
-        <li className='list__item'>Индонезия</li>
-        <li className='list__item'>Маврикий</li>
-        <li className='list__item'>Мальдивы</li>
+      <h1 className='pj-title pj-h1'>{title}</h1>
+      <ul className='pj-list'>
+        {items.map((el) => {
+          return (
+            <li className='pj-list__item pj-list__item-lg'>
+              <p className='pj-text-lg'>{el}</p>
+            </li>
+          );
+        })}
       </ul>
     </>
   );

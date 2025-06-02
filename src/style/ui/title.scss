@@ -1,7 +1,36 @@
-@use '../base/mixins.scss' as *;
-
-.title-h1 {
-    @include title;
-    font-size: 35px;
-    margin-top: 20px;
+.pj-title {
+    font-family: var(--pj-title-f-f);
+    color: var(--pj-font-c-light);
 }
+
+.pj-h1 {
+    font-weight: var(--pj-h1-f-w);
+    font-size: var(--pj-h1-f-s);
+}
+
+.pj-h2 {
+    font-weight: var(--pj-h2-f-w);
+    font-size: var(--pj-h2-f-s);
+}
+
+.pj-h3 {
+    font-weight: var(--pj-h3-f-w);
+    font-size: var(--pj-h3-f-s);
+}
+
+.pj-text-lg {
+    font-size: var(--pj-text-lg-f-s);
+}
+
+.pj-text-md {
+    font-size: var(--pj-text-md-f-s);
+}
+
+.pj-text-sm {
+    font-size: var(--pj-text-sm-f-s);
+}
+
+.pj-text-xs {
+    font-size: var(--pj-text-xs-f-s);
+}
+

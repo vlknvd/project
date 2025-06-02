@@ -1,0 +1,66 @@
+:root {
+    // fonts
+    --pj-font-f: 'Montserrat';
+    --pj-font-c-dark: #ffffff;
+    --pj-font-c-light: #000000;
+
+    // titles
+    --pj-title-f-f: 'Open Sans';
+
+    --pj-h1-f-w: 500;
+    --pj-h1-f-s: 35px;
+
+    --pj-h2-f-w: 400;
+    --pj-h2-f-s: 28px;
+
+    --pj-h3-f-w: 300;
+    --pj-h3-f-s: 26px;
+
+    // background
+    --pj-bg-c-dark: #000000;
+    --pj-bg-c-light: #ffffff;
+
+    // btn
+    --btn-bg: #0300a8;
+    --btn-bg-h: #322ff8;
+    --btn-bg-a: #070666;
+    --btn-bg-f: #12109d;
+
+    --btn-p: 5px;
+
+    --btn-font-c: #ffffff;
+    --btn-font-w: 400;
+
+    --btn-lg-w: 200px;
+    --btn-lg-h: 60px;
+    --btn-lg-f-s: 20px;
+
+    --btn-md-w: 180px;
+    --btn-md-h: 50px;
+    --btn-md-f-s: 18px;
+
+    --btn-sm-w: 160px;
+    --btn-sm-h: 40px;
+    --btn-sm-f-s: 16px;
+
+    --btn-xs-w: 140px;
+    --btn-xs-h: 30px;
+    --btn-xs-f-s: 12px;
+
+    // list
+
+    --list-s-t: decimal;
+    --list-i-m: 10px;
+    --list-i-m-f: 0;
+
+    --list-item-lg-f-s: 22px;
+    --list-item-md-f-s: 20px;
+    --list-item-sm-f-s: 18px;
+    --list-item-xs-f-s: 16px;
+
+    // text 
+    --pj-text-lg-f-s: 22px;
+    --pj-text-md-f-s: 20px;
+    --pj-text-sm-f-s: 18px;
+    --pj-text-xs-f-s: 16px;
+}

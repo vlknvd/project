@@ -1,22 +1,23 @@
-@use "./variables.scss" as *;
+@use './root.scss';
 
 @mixin button {
-    display: block;
-    background-color: $btn-bg;
+    padding: var(--btn-p);
+    background-color: var(--btn-bg);
     border-radius: 20px;
     border: none;
     text-align: center;
-    color: $btn-font-color;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    color: var(--btn-font-c);
+    font-weight: var(--btn-font-w);
     text-transform: uppercase;
     cursor: pointer;
-}
 
-@mixin title {
-    color: $font-color;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    &:hover {
+        background-color: var(--btn-bg-h);
+    }
+    &:active {
+        background-color: var(--btn-bg-a);
+    }
+    &:focus {
+        background-color: var(--btn-bg-f);
+    }
 }

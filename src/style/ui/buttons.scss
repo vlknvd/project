@@ -2,8 +2,28 @@
 
 .button {
     @include button;
-    margin-top: 20px;
-    width: 150px;
-    height: 40px;
-    font-size: 14px;
+}
+
+.button-lg {
+    width: var(--btn-lg-w);
+    height: var(--btn-lg-h);
+    font-size: var(--btn-lg-f-s);
+}
+
+.button-md {
+    width: var(--btn-md-w);
+    height: var(--btn-md-h);
+    font-size: var(--btn-md-f-s);
+}
+
+.button-sm {
+    width: var(--btn-sm-w);
+    height: var(--btn-sm-h);
+    font-size: var(--btn-sm-f-s);
+}
+
+.button-xs {
+    width: var(--btn-xs-w);
+    height: var(--btn-xs-h);
+    font-size: var(--btn-xs-f-s);
 }
