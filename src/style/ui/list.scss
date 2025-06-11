@@ -1,21 +1,16 @@
 .pj-list {
     &__item {
-        list-style-type: var(--list-s-t);
-        margin-top: var(--list-i-m);
-        &:first-child {
-            margin-top: var(--list-i-m-f);
+        &--circle {
+            list-style-type: var(--list-item-s-t-circle);
         }
-        &-lg {
-            font-size: var(--list-item-lg-f-s);
+        &--disc {
+            list-style-type: var(--list-item-s-t-disc);
         }
-        &-md {
-            font-size: var(--list-item-md-f-s);
+        &--square {
+            list-style-type: var(--list-item-s-t-square);
         }
-        &-sm {
-            font-size: var(--list-item-sm-f-s);       
-        }
-        &-xs {   
-            font-size: var(--list-item-xs-f-s);  
+        &--decimal {
+            list-style-type: var(--list-item-s-t-decimal);
         }
     }
 

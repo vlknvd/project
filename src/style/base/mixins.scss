@@ -1,23 +1,11 @@
 @use './root.scss';
 
 @mixin button {
-    padding: var(--btn-p);
-    background-color: var(--btn-bg);
-    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    text-align: center;
-    color: var(--btn-font-c);
-    font-weight: var(--btn-font-w);
-    text-transform: uppercase;
     cursor: pointer;
-
-    &:hover {
-        background-color: var(--btn-bg-h);
-    }
-    &:active {
-        background-color: var(--btn-bg-a);
-    }
-    &:focus {
-        background-color: var(--btn-bg-f);
-    }
+    text-align: center;
+    text-transform: uppercase;
 }

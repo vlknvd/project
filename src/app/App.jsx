@@ -14,20 +14,26 @@ const App = () => {
   };
   return (
     <div className='pj'>
-      <div className='pj-container pj-container-visaFree'>
+      <div className='pj-container pj-container--visa-free'>
         <div className='pj-content'>
-          <List listItems={listVisaFreeCountry} />
+          <List
+            listItems={listVisaFreeCountry}
+            className={"pj-list__item--circle"}
+          />
         </div>
         <div className='pj-button'>
-          <Button textBtn={"Купить билет"} />
+          <Button textBtn={"Купить билет"} className={"button--primary"} />
         </div>
       </div>
-      <div className='pj-container pj-container-visa'>
+      <div className='pj-container pj-container--visa'>
         <div className='pj-content'>
-          <List listItems={listVisaCountry} />
+          <List
+            listItems={listVisaCountry}
+            className={"pj-list__item--decimal"}
+          />
         </div>
         <div className='pj-button'>
-          <Button textBtn={"Купить билет"} />
+          <Button textBtn={"Купить билет"} className={"button--secondary"} />
         </div>
       </div>
     </div>

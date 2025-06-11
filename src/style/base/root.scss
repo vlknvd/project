@@ -9,28 +9,23 @@
 
     --pj-h1-f-w: 500;
     --pj-h1-f-s: 35px;
+    --pj-h1-l-h: 1.5;
 
     --pj-h2-f-w: 400;
     --pj-h2-f-s: 28px;
+    --pj-h2-l-h: 1.5;
 
     --pj-h3-f-w: 300;
     --pj-h3-f-s: 26px;
+    --pj-h3-l-h: 1.5;
 
     // background
     --pj-bg-c-dark: #000000;
     --pj-bg-c-light: #ffffff;
 
     // btn
-    --btn-bg: #0300a8;
-    --btn-bg-h: #322ff8;
-    --btn-bg-a: #070666;
-    --btn-bg-f: #12109d;
-
-    --btn-p: 5px;
-
-    --btn-font-c: #ffffff;
-    --btn-font-w: 400;
-
+    --btn-b-r: 25px;
+    
     --btn-lg-w: 200px;
     --btn-lg-h: 60px;
     --btn-lg-f-s: 20px;
@@ -43,15 +38,30 @@
     --btn-sm-h: 40px;
     --btn-sm-f-s: 16px;
 
-    --btn-xs-w: 140px;
-    --btn-xs-h: 30px;
-    --btn-xs-f-s: 12px;
+    --btn-primary-f-c: #ffffff;
+    --btn-primary-bg: #0300a8;
+    --btn-primary-hover-bg: rgb(113, 112, 185);
+    --btn-primary-focus-b: 2px solid #fff;
+    --btn-primary-focus-o: 2px solid #0300a8;
+    --btn-primary-active-b: 5px solid #fff;
+    --btn-primary-active-o: none;
+    --btn-primary-disabled-bg: rgb(66, 66, 83);
+
+    --btn-secondary-f-c: #000000;
+    --btn-secondary-bg: #8d8d91;
+    --btn-secondary-hover-bg: rgb(202, 202, 202);
+    --btn-secondary-focus-b: 2px solid #fff;
+    --btn-secondary-focus-o: 2px solid #8d8d91;
+    --btn-secondary-active-b: 5px solid #fff;
+    --btn-secondary-active-o: none;
+    --btn-secondary-disabled-bg: rgb(47, 47, 47);
 
     // list
 
-    --list-s-t: decimal;
-    --list-i-m: 10px;
-    --list-i-m-f: 0;
+    --list-item-s-t-circle: circle;
+    --list-item-s-t-disc: disc;
+    --list-item-s-t-square: square;
+    --list-item-s-t-decimal: decimal;
 
     --list-item-lg-f-s: 22px;
     --list-item-md-f-s: 20px;
@@ -59,8 +69,19 @@
     --list-item-xs-f-s: 16px;
 
     // text 
+    --pj-text-lg-f-w: 300px;
     --pj-text-lg-f-s: 22px;
+    --pj-text-lg-l-h: 1.2;
+
+    --pj-text-md-f-w: 300px;
     --pj-text-md-f-s: 20px;
+    --pj-text-md-l-h: 1.2;
+
+    --pj-text-sm-f-w: 300px;
     --pj-text-sm-f-s: 18px;
+    --pj-text-sm-l-h: 1.2;
+
+    --pj-text-xs-f-w: 300px;
     --pj-text-xs-f-s: 16px;
+    --pj-text-xs-l-h: 1.2;
 }
