@@ -13,9 +13,12 @@ p {
     margin: 0;
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
     padding-left: 0;
-    margin-left:0;
+    margin-left: 0;
+    list-style-type: none;
 }
 
 h1,

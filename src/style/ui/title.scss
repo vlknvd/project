@@ -1,42 +1,41 @@
 .pj-h1 {
-    font-weight: var(--pj-h1-f-w);
-    font-size: var(--pj-h1-f-s);
-    line-height: var(--pj-h1-l-h);
+    font-weight: var(--pj-h1-f-w, var(--pj-h1-default-f-w));
+    font-size: var(--pj-h1-f-s, var(--pj-h1-default-f-s));
+    line-height: var(--pj-h1-l-h, var(--pj-h1-default-l-h));
 }
 
 .pj-h2 {
-    font-weight: var(--pj-h2-f-w);
-    font-size: var(--pj-h2-f-s);
-    line-height: var(--pj-h1-l-h);
+    font-weight: var(--pj-h2-f-w, var(--pj-h2-default-f-w));
+    font-size: var(--pj-h2-f-s, var(--pj-h2-default-f-s));
+    line-height: var(--pj-h2-l-h, var(--pj-h2-default-l-h));
 }
 
 .pj-h3 {
-    font-weight: var(--pj-h3-f-w);
-    font-size: var(--pj-h3-f-s);
-    line-height: var(--pj-h1-l-h);
+    font-weight: var(--pj-h3-f-w, var(--pj-h3-default-f-w));
+    font-size: var(--pj-h3-f-s, var(--pj-h3-default-f-s));
+    line-height: var(--pj-h1-l-h, var(--pj-h3-default-l-h));
 }
 
 .pj-text-lg {
-    font-weight: var(--pj-text-lg-f-w);
-    font-size: var(--pj-text-lg-f-s);
-    line-height: var(--pj-text-lg-l-h);
+    font-weight: var(--pj-text-lg-f-w, var(--pj-text-lg-default-f-w));
+    font-size: var(--pj-text-lg-f-s, var(--pj-text-lg-default-f-s));
+    line-height: var(--pj-text-lg-l-h, var(--pj-text-lg-default-l-h));
 }
 
 .pj-text-md {
-    font-weight: var(--pj-text-md-f-w);
-    font-size: var(--pj-text-md-f-s);
-    line-height: var(--pj-text-md-l-h);
+    font-weight: var(--pj-text-md-f-w, var(--pj-text-md-default-f-w));
+    font-size: var(--pj-text-md-f-s, var(--pj-text-md-default-f-s));
+    line-height: var(--pj-text-md-l-h, var(--pj-text-md-default-l-h));
 }
 
 .pj-text-sm {
-    font-weight: var(--pj-text-sm-f-w);
-    font-size: var(--pj-text-sm-f-s);
-    line-height: var(--pj-text-sm-l-h);
+    font-weight: var(--pj-text-sm-f-w, var(--pj-text-sm-default-f-w));
+    font-size: var(--pj-text-sm-f-s, var(--pj-text-sm-default-f-s));
+    line-height: var(--pj-text-sm-l-h, var(--pj-text-sm-default-l-h));
 }
 
 .pj-text-xs {
-    font-weight: var(--pj-text-xs-f-w);
-    font-size: var(--pj-text-xs-f-s);
-    line-height: var(--pj-text-xs-l-h);
+    font-weight: var(--pj-text-xs-f-w, var(--pj-text-xs-default-f-w));
+    font-size: var(--pj-text-xs-f-s, var(--pj-text-xs-default-f-s));
+    line-height: var(--pj-text-xs-l-h, var(--pj-text-xs-default-l-h));
 }
-

@@ -25,7 +25,7 @@
 
     // btn
     --btn-b-r: 25px;
-    
+
     --btn-lg-w: 200px;
     --btn-lg-h: 60px;
     --btn-lg-f-s: 20px;
@@ -34,7 +34,7 @@
     --btn-md-h: 50px;
     --btn-md-f-s: 18px;
 
-    --btn-sm-w: 160px;
+    --btn-sm-w: 120px;
     --btn-sm-h: 40px;
     --btn-sm-f-s: 16px;
 
@@ -58,7 +58,11 @@
 
     // list
 
-    --list-item-s-t-circle: circle;
+    --pj-list-flex-col: column;
+    --pj-list-flex-col-reverse: column-reverse;
+    --pj-list-flex-row: row;
+    --pj-list-flex-row-reverse: row-reverse;
+    --pj-list-flex-gap: 5px --list-item-s-t-circle: circle;
     --list-item-s-t-disc: disc;
     --list-item-s-t-square: square;
     --list-item-s-t-decimal: decimal;
@@ -84,4 +88,16 @@
     --pj-text-xs-f-w: 300px;
     --pj-text-xs-f-s: 16px;
     --pj-text-xs-l-h: 1.2;
+
+    // card
+    --pj-card-b: 1px solid black;
+    --pj-card-bg-c: #ffffff;
+    --pj-card-p: 10px;
+    --pj-card-b-r: 25px;
+
+    --pj-card-md-w: 300px;
+    --pj-card-md-h: 500px;
+
+    --pj-card-sm-w: 200px;
+    --pj-card-sm-h: 400px;
 }

@@ -1,15 +1,32 @@
 .pj-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--pj-list-flex-gap, var(--pj-list-flex-default-gap));
+
+    &--row {
+        flex-direction: var(--pj-list-flex-row, var(--pj-list-flex-default));
+    }
+
+    &--col {
+        flex-direction: var(--pj-list-flex-col, var(--pj-list-flex-default));
+    }
+
     &__item {
+
         &--circle {
             list-style-type: var(--list-item-s-t-circle);
         }
+
         &--disc {
             list-style-type: var(--list-item-s-t-disc);
         }
+
         &--square {
             list-style-type: var(--list-item-s-t-square);
         }
-        &--decimal {
+
+        &--number {
             list-style-type: var(--list-item-s-t-decimal);
         }
     }

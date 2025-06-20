@@ -1,15 +1,14 @@
 import React from "react";
 
-const List = ({ listItems, className }) => {
-  const { title, items } = listItems;
+const List = ({ items, title, listClassName, itemClassName, textClassName }) => {
   return (
     <>
-      <h1 className='pj-h1'>{title}</h1>
-      <ul className='pj-list'>
+      <h1 className='pj-h2'>{title}</h1>
+      <ul className={`pj-list ${listClassName} `}>
         {items.map((el) => {
           return (
-            <li className={`pj-list__item ${className} `}>
-              <p className='pj-text pj-text-lg'>{el}</p>
+            <li className={`pj-list__item ${itemClassName} `}>
+              <p className={`pj-text ${textClassName}`}>{el}</p>
             </li>
           );
         })}

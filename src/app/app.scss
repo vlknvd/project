@@ -1,12 +1,16 @@
 .pj {
     &-container {
         padding: 20px 0 0 20px;
-        &-visa {
+        &--visa {
             margin-top: 20px;
+        }
+        &--cards {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
         }
     }
     &-list {
-        margin-top: 20px;
         padding-left: 20px;
     }
     &-button {

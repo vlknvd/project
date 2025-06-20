@@ -2,31 +2,35 @@
 
 .button {
     @include button;
-    
+
     &--primary {
-        background-color: var(--btn-primary-bg);
-        border-radius: var(--btn-b-r);
-        color: var(--btn-primary-f-c);
+        background-color: var(--btn-primary-bg, var(--btn--primary-default-bg));
+        border-radius: var(--btn-b-r, var(--btn-default-b-r));
+        color: var(--btn-primary-f-c, var(--btn-primary-default-f-c));
+
         &:hover {
             background-color: var(--btn-primary-hover-bg);
         }
+
         &:focus {
             border: var(--btn-primary-focus-b);
             outline: var(--btn-primary-focus-o);
         }
+
         &:active {
             border: var(--btn-primary-active-b);
             outline: var(--btn-primary-active-o);
         }
+
         &:disabled {
             background-color: var(--btn-primary-disabled-bg);
         }
-    } 
+    }
 
     &--secondary {
-        background-color: var(--btn-secondary-bg);
-        border-radius: var(--btn-b-r);
-        color: var(--btn-secondary-f-c);
+        background-color: var(--btn-secondary-bg, var(--btn-secondary-default-bg));
+        border-radius: var(--btn-b-r, var(--btn-default-b-r));
+        color: var(--btn-secondary-f-c, var(--btn-secondary-default-f-c));
 
         &:hover {
             background-color: var(--btn-secondary-hover-bg);
@@ -48,26 +52,26 @@
     }
 
     &--lg {
-        width: var(--btn-lg-w);
-        height: var(--btn-lg-h);
-        font-size: var(--btn-lg-f-s);
+        width: var(--btn-lg-w, var(--btn-lg-default-w));
+        height: var(--btn-lg-h, var(--btn-lg-default-h));
+        font-size: var(--btn-lg-f-s, var(--btn-lg-default-f-s));
     }
 
     &--md {
-        width: var(--btn-md-w);
-        height: var(--btn-md-h);
-        font-size: var(--btn-md-f-s);
+        width: var(--btn-md-w, var(--btn-md-default-w));
+        height: var(--btn-md-h, var(--btn-md-default-h));
+        font-size: var(--btn-md-f-s, var(--btn-md-default-f-s));
     }
 
     &--sm {
-        width: var(--btn-sm-w);
-        height: var(--btn-sm-h);
-        font-size: var(--btn-sm-f-s);
+        width: var(--btn-sm-w, var(--btn-sm-default-w));
+        height: var(--btn-sm-h, var(--btn-sm-default-h));
+        font-size: var(--btn-sm-f-s, var(--btn-sm-default-f-s));
     }
 
     &--xs {
-        width: var(--btn-xs-w);
-        height: var(--btn-xs-h);
-        font-size: var(--btn-xs-f-s);
+        width: var(--btn-xs-w, var(--btn-xs-default-w));
+        height: var(--btn-xs-h, var(--btn-xs-default-h));
+        font-size: var(--btn-xs-f-s, var(--btn-xs-default-f-s));
     }
 }
